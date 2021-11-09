@@ -1,0 +1,625 @@
+body
+{
+	background: url("../images/BG.png") no-repeat scroll center 0 #C76E76;
+    margin: 0;
+}
+#header
+{
+	background: url("../images/menuBarBG.png") repeat-x scroll center center transparent;
+    height: 156px;
+}
+#TopMenu
+{
+	height: 159px;
+    margin: 0 auto;
+    width: 960px;
+}
+#TopMenu ul
+{
+	 margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+   /* width: 92%;*/
+}
+#TopMenu ul a
+{
+}
+#TopMenu ul a li
+{
+	background: url("../images/menuBg.jpg") no-repeat scroll 0 0 transparent;
+    color: #000000;
+    float: left;
+    font-family: arial;
+    height: 57px;
+    list-style: none outside none;
+    margin: 50px 11px 0 0;
+    width: 126px;
+	padding: 20px 0 0;
+    text-align: center;
+	font-weight: bold;
+}
+#wrapper
+{
+	background:url(../images/white_bg.png) repeat;
+	margin: 0 auto;
+    width: 960px;
+	min-height: 500px;
+}
+#MainTitle
+{
+	margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    width: 324px;
+}
+#mary
+{
+text-align: center;
+    width: 960px;
+	 position: absolute;
+}
+#wishingWall
+{
+	 /*position: absolute;
+    top: 441px;*/
+     margin: 212px 0 0;
+    width: 409px;
+	background:url(../images/Wishing_Wall.png) no-repeat;
+	height:542px;
+}
+#Discription
+{
+  background: url("../images/DiscriptinGlow.png") no-repeat scroll center center transparent;
+    float: right;
+    margin: 505px 0 0;
+    top: 645px;
+    width: 544px;
+}
+#Discription p
+{
+	font-family: 'Tangerine',serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0;
+    padding: 6px 0 24px;
+    text-align: center;
+}
+#footer
+{
+background:url(../images/footerBg.jpg) repeat;
+}
+#BottomMenu
+{
+height: 130px;
+    margin: 0 auto;
+    width: 960px;
+}
+#BottomMenu ul
+{
+margin:0;
+padding:0;
+}
+#BottomMenu ul a
+{
+}
+#BottomMenu ul li 
+{
+ color: #ABA981;
+    float: left;
+    font-family: arial;
+    height: 21px;
+    list-style: none outside none;
+    margin: 0 11px 26px 0;
+    padding: 20px 0 0;
+    text-align: center;
+    width: 126px;
+}
+#BottomMenu ul li a
+{
+ 	color: #ABA981;
+    font-family: arial;
+	text-decoration:none;
+}
+#copyright
+{
+ color: #FFFFFF;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    width: 409px;
+}
+#fb
+{
+ background: url("../images/fb.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 39px;
+    width: 39px;
+}
+#loginContainer
+{
+position: absolute;
+    right: 0;
+	z-index: 9999999;
+	margin: 60px 0 0;
+}
+#LoginButton
+{
+background:url(../images/loginButton.png) no-repeat;
+width:93px;
+height:54px;
+float:right;
+margin: 40px 0 0;
+cursor: pointer;
+}
+#LoginBox
+{
+background: url("../images/loginBox.png") no-repeat scroll 0 0 transparent;
+    display: none;
+    float: right;
+    height: 148px;
+    width: 256px;
+}
+#loginContainer .logtxtBox
+{
+background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    float: right;
+    margin: 33px 14px 0 0;
+}
+#loginContainer p.fromTxt
+{
+margin: 30px 0 0 8px;
+}
+#loginContainer input#formSubmitBtn
+{
+	background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    margin: 6px 11px 0 0;
+	 height: 24px;
+	 border-radius: 4px 4px 4px 4px;
+	 
+	 
+	 background: #b3dced; /* Old browsers */
+background: -moz-linear-gradient(top,  #b3dced 0%, #29b8e5 50%, #bce0ee 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b3dced), color-stop(50%,#29b8e5), color-stop(100%,#bce0ee)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=0 ); /* IE6-9 */
+
+
+	 
+}
+#loginContainer p#forgt_Reg_login
+{
+	background: none repeat scroll 0 0 #44BBDD;
+    border-radius: 0 0 10px 10px;
+    color: #000000;
+    font-size: 11px;
+    margin: 2px 7px 0;
+    text-align: center;
+    width: 242px;
+}
+#loginContainer p#forgt_Reg_login a
+{
+	color: #2D2D2D;
+    text-decoration: none;
+}
+#regForm
+{
+	height: 185px;
+    margin: 0 auto;
+    padding: 59px;
+    width: 410px;
+}
+#HollyWterBox
+{
+text-align: center;
+    margin: 0 auto;
+    padding: 59px;
+    width: 410px;
+}
+#GalleryBox
+{
+	/*height: 185px;
+    margin: 0 auto;
+    padding: 59px;
+    width: 410px;*/
+}
+#ContactForm
+{
+	min-height: 185px;
+    margin: 0 auto;
+    padding: 59px;
+    width: 410px;
+}
+#WishesForm
+{
+	height: 185px;
+    margin: 0 auto;
+    padding: 59px;
+    width: 410px;
+	text-align: center;
+}
+#ContactForm input.txtBoxes,textarea.txtBoxes
+{
+	width:75%;
+}
+#forgotForm
+{
+	height: 185px;
+    margin: 0 auto;
+    padding: 59px;
+    width: 410px;
+	/*text-align: center;*/
+}
+p#regTitle,p#ContactTitle,p#WishingWallTitle,p#EphesusTursTitle
+{
+	font-size: 32px;
+    margin: 0 auto;
+    padding: 10px;
+	text-align: center;
+}
+#forgotForm  p 
+{
+    border-bottom: 1px solid #7D7D7D;
+    font-size: 18px;
+	 padding: 0 0 10px;
+	 text-align: center;
+}
+#forgotForm input#forgotRecoverBtn
+{
+background: none repeat scroll 0 0 transparent;
+	 height: 24px;
+	 border-radius: 4px 4px 4px 4px;
+	 border: 1px solid #808080;
+	 
+	 
+	 background: #b3dced; /* Old browsers */
+background: -moz-linear-gradient(top,  #b3dced 0%, #29b8e5 50%, #bce0ee 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b3dced), color-stop(50%,#29b8e5), color-stop(100%,#bce0ee)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=0 ); /* IE6-9 */
+}
+.rg-view 
+{
+    display: none;
+}
+#showLgStusBox
+{
+background: url("../images/white_bg.png") repeat scroll 0 0 transparent;
+    border-left: 1px solid #FFFFFF;
+    border-radius: 0 0 20px 20px;
+    border-right: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    float: left;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    width: 178px;
+}
+#showLgStusBox input,#gtWwall input
+{
+background: none repeat scroll 0 0 transparent;
+    border:1px solid #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    margin: 5px 0 0;
+    width: 100px;
+	
+	background: #d0e4f7; /* Old browsers */
+background: -moz-linear-gradient(top,  #d0e4f7 0%, #73b1e7 24%, #0a77d5 50%, #539fe1 79%, #87bcea 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d0e4f7), color-stop(24%,#73b1e7), color-stop(50%,#0a77d5), color-stop(79%,#539fe1), color-stop(100%,#87bcea)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=0 ); /* IE6-9 */
+
+	
+	
+}
+#gtWwall
+{
+background: url("../images/white_bg.png") repeat scroll 0 0 transparent;
+    border-left: 1px solid #FFFFFF;
+    border-radius: 0 0 20px 20px;
+    border-right: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    float:right;
+    height: 50px;
+    text-align: center;
+    width: 178px;
+}
+#logBxesCntainer
+{
+height: 50px;
+    position: absolute;
+    text-align: right;
+    width: 959px;
+}
+#WishingWallBox
+{
+	  height: 500px;
+    margin: 50px auto 0;
+    overflow: scroll;
+    width: 99%;
+}
+#WishingWallBox1
+{
+	  height: 500px;
+    margin: 50px auto 0;
+    overflow: scroll;
+    width: 99%;
+}
+#holyWater
+{
+background:url(../images/hollyWater.png) no-repeat;
+width:382px;
+height:139px;
+float:left;
+}
+#lightAcandleNow
+{
+background:url(../images/lightAcandle.png) no-repeat;
+width:382px;
+height:139px;
+float:right;
+}
+#bannerBar
+{
+background: url("../images/white_bg.png") repeat scroll 0 0 transparent;
+    border-radius: 20px 20px 20px 20px;
+    border-top: 1px solid #FFFFFF;
+    height: 139px;
+    margin: 152px 0 0;
+    padding: 30px 80px 20px;
+}
+#wishingWall marquee
+{
+margin: 335px 0 0 30px;
+}
+#wishingWall table#marqueeMainTb
+{
+text-align: center;
+}
+#wishingWall table#marqueeSubTb td#marqSubMiddleTD
+{
+width: 110px;
+}
+#NumOfWishes
+{
+ background: url("../images/white_bg.png") repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+    border-top: 1px solid #FFFFFF;
+    height: 35px;
+    margin: 0 auto;
+    padding: 15px 0 0;
+    text-align: center;
+    width: 200px;
+}
+#NumOfWishes p
+{
+margin: 0;
+font-family: 'Tangerine',serif;
+ font-size: 30px;
+}
+#WishingWallBox .wichContainer
+{
+ background: none repeat scroll 0 0 #FFF9CC;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    height: 200px;
+    margin: 0 2px 5px 3px;
+    overflow: hidden;
+    width: 225px;
+}
+#WishingWallBox .wichContainer a
+{
+ color: #000000;
+    text-decoration: none;
+}
+#WishingWallBox .wichContainer a .wish
+{
+height: 169px;
+    overflow: hidden;
+    padding: 5px;
+    text-align: justify;
+	font-style: italic;
+}
+#WishingWallBox .wichContainer .WishDetailBar
+{
+background: none repeat scroll 0 0 #E6E6E6;
+    border-radius: 10px 10px 0 0;
+    border-top: 1px solid #000000;
+    height: 20px;
+}
+#WishingWallBox .wichContainer .WishDetailBar:hover
+{
+background: none repeat scroll 0 0 #00A5FF;
+}
+#WishingWallBox .wichContainer .WishDetailBar .UserName
+{
+float: left;
+    height: 20px;
+    padding: 1px 0 0 7px;
+    width: 107px;
+}
+#WishingWallBox .wichContainer .WishDetailBar .OtherDetails
+{
+float: right;
+    font-size: 11px;
+    height: 17px;
+    padding: 3px 0 0;
+    width: 111px;
+}
+#EphesusTursBox #TourOne
+{
+
+}
+#EphesusTursBox .Tours
+{
+text-align: center;
+ margin: 15px 0 0;
+}
+#EphesusTursBox p
+{
+margin:0;
+}
+#TourMenu
+{
+}
+#TourMenu ul
+{
+ margin: 10px 0 35px;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+#TourMenu ul li 
+{
+	 float: left;
+    list-style: none outside none;
+    overflow: hidden;
+    text-align: center;
+    width: 185px;
+	margin: 0 0 0 41px;
+	 background:none repeat scroll 0 0 #BAE4FE;
+    border: 1px solid #A7A7A7;
+    border-radius: 10px 10px 10px 10px;
+
+} 
+#TourMenu ul li:hover
+{
+background:#FFF9CC;
+ border: 1px solid #00A5FF;
+}
+#TourMenu ul li a
+{
+text-decoration:none;
+ color: #8F0A0A;
+}
+
+#back-top {
+	position: fixed;
+	bottom: 30px;
+	/*margin-left: -150px;*/
+	right:7px;;
+}
+#back-top a {
+	color: #BBBBBB;
+    display: block;
+    font: 11px/100% Arial,Helvetica,sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease 0s;
+    width: 56px;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover {
+	color: #000;
+}
+/* arrow icon (span tag) */
+#back-top span {
+	background: url("../images/up-arrow.png") no-repeat scroll center center #00A5FF;
+    border-radius: 15px 15px 15px 15px;
+    display: block;
+    height: 65px;
+    margin-bottom: 7px;
+    transition: all 1s ease 0s;
+    width: 54px;
+	/*background: #ddd url(../images/up-arrow.png) no-repeat center center;*/
+	/* rounded corners */
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover span {
+	background-color: #777;
+}
+#ContactForm input
+{
+ background: linear-gradient(to bottom, #FEFCEA 0%, #FFFCC4 100%) repeat scroll 0 0 transparent;
+    border: medium none;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0 0 4px #938B4A inset;
+    height: 30px;
+    margin: 0 0 10px;
+    width: 80%;
+}
+
+#ContactForm textarea.txtBoxes {
+    background: none repeat scroll 0 0 #FFF5AD;
+    border: medium none;
+    border-radius: 0 30px 30px 30px;
+    box-shadow: 0 0 4px #938B4A inset;
+    height: 90px;
+    margin: 0 0 10px;
+    width: 100%;
+}
+#ContactForm input.btn
+{
+border-radius: 30px 30px 30px 30px;
+    height: 40px;
+    width: 100px;
+	color: #FFFFFF;
+    font-size: 19px;
+    font-weight: bold;
+	
+	background: #f0b7a1; /* Old browsers */
+background: -moz-linear-gradient(top, #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0b7a1), color-stop(50%,#8c3310), color-stop(51%,#752201), color-stop(100%,#bf6e4e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* IE10+ */
+background: linear-gradient(to bottom, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+	
+}
+#UnlogedMessage
+{
+color: #FF0000;
+    font-size: 22px;
+    margin: 102px 0 0;
+    text-align: center;
+}
+img#lightAcandle {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
